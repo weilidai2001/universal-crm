@@ -18,6 +18,8 @@
   "homepage": "https://github.com/weilidai2001/universal-crm#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "uuid": "^2.0.2"
   }
 }
