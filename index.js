@@ -33,7 +33,7 @@ class Repo {
     this.db.push(obj);
   }
 
-  delete(id){
+  remove(id){
     _.remove(this.db, item => item.id == id);
   }
 }
@@ -93,6 +93,6 @@ const server = app.listen(8091, function () {
   app.delete('/objects/:id', function(req, res){
     const id = req.params.id;
 
-    res.send(repo.delete(id));
+    res.send(repo.remove(id));
   });
 });
