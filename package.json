@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/weilidai2001/universal-crm/issues"
   },
-  "homepage": "https://github.com/weilidai2001/universal-crm#readme"
+  "homepage": "https://github.com/weilidai2001/universal-crm#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
